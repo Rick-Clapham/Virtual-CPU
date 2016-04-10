@@ -7,19 +7,29 @@ Virtual CPU project that simulates an ARM x86 processor
 * Student #: n00663650
 * Date: 4/7/2016
 * Virtual CPU project
+* 
 ******************************************/
 
 /**
+
 Used to display error messages currently not being used
+
 **/
+
 void error(char *msg)
 
 /**
+
 Function designed to execute the commands given
+
 @param instruction - Receives the current instruction
+
 @param type - Receives and determines the type of instruction
+
 @param memptr - Receives the Virtual CPU's buffer
+
 **/
+
 void execute(uint16_t instruction, uint16_t type, void *memptr)
 
 /**
