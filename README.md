@@ -10,24 +10,24 @@ Virtual CPU project that simulates an ARM x86 processor
 
 ******************************************/
 
-/**
-Used to display error messages currently not being used
-**/
 void error(char *msg)
+Used to display error messages currently not being used
 
-/**
-Function designed to execute the commands given
-@param instruction - Receives the current instruction
-@param type - Receives and determines the type of instruction
-@param memptr - Receives the Virtual CPU's buffer
-**/
 void execute(uint16_t instruction, uint16_t type, void *memptr)
 
-/**
+Function designed to execute the commands given
+
+@param instruction - Receives the current instruction
+
+@param type - Receives and determines the type of instruction
+
+@param memptr - Receives the Virtual CPU's buffer
+
+
+void fetch(void *memptr)
 Function designed to fetch the first command from memory 
 @param memptr - Receives the Virtual CPU's buffer
-**/
-void fetch(void *memptr)
+
 
 /**
 Responsible for controlling the fetch and execute functions
