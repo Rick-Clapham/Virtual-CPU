@@ -9,3 +9,8 @@ Virtual CPU project that simulates an ARM x86 processor
 * Virtual CPU project
 
 ******************************************/
+
+
+Used to display error messages currently not being used
+
+void error(char *msg)
