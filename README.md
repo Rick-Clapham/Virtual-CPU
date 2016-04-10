@@ -11,5 +11,4 @@ Virtual CPU project that simulates an ARM x86 processor
 ******************************************/
 
 
-Used to display error messages currently not being used
-void error(char *msg)
+To be updated with function descriptions and other information
