@@ -740,6 +740,7 @@ Main Function that is responsible for receiving the users choice
 **/
 int main(int argc, char *argv[])
 {
+	resetRegisters(); //ARM x86 resets registers when started
 	/* While loop for main prompt checks user input */
 	while(1)
 	{
